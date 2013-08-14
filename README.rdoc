@@ -1,0 +1,3 @@
+== Gifinator
+
+An app used to teach rails.  It uses the Giphy gem and fetches awesome gifs!

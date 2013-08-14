@@ -1,0 +1,4 @@
+<h1>this is a search for <%= @search.term %></h1>
+<% @search.gifs.each do |gif| %>
+	<%= image_tag(gif.url, :class => "gif-img") %>
+<% end %>
